@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Lentejas",
+    "time": ["lunch"],
+    "office": true,
+    "category": "legumbres",
+    "ingredients": ["lentejas", "cebolla", "pimiento", "zanahoria", "chorizo", "laurel", "patata", "jamón"],
+    "portions": 4
+  },
+  {
+    "id": 2,
+    "name": "Arroz con pollo",
+    "time": ["dinner"],
+    "office": false,
+    "category": "arroz",
+    "ingredients": ["arroz", "pollo", "cebolla", "pimiento", "tomate", "guisantes"],
+    "portions": 6
+  },
+  {
+    "id": 3,
+    "name": "Pescado a la plancha",
+    "time": ["breakfast", "lunch", "dinner"],
+    "office": false,
+    "category": "pescado",
+    "ingredients": ["pescado", "aceite de oliva", "sal", "limón"],
+    "portions": 2
+  },
+  {
+    "id": 4,
+    "name": "Pasta con tomate",
+    "time": ["lunch"],
+    "office": true,
+    "category": "pasta",
+    "ingredients": ["pasta", "tomate frito", "cebolla", "ajo", "albahaca"],
+    "portions": 4
+  },
+  {
+    "id": 5,
+    "name": "Carne guisada",
+    "time": ["dinner"],
+    "office": false,
+    "category": "carne",
+    "ingredients": ["carne de ternera", "cebolla", "pimiento", "tomate", "zanahoria", "vino tinto"],
+    "portions": 6
+  }
+]
