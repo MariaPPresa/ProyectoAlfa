@@ -5,7 +5,9 @@
     "time": ["Lunch"],
     "office": true,
     "category": "Legumbres",
+    "weight": 1,
     "ingredients": ["Lentejas", "Cebolla", "Pimiento", "Zanahoria", "Chorizo", "Laurel", "Patata", "Jamón", "Ajo"],
+    "healty": true,
     "portions": 4
   },
   {
@@ -14,7 +16,9 @@
     "time": ["Lunch"],
     "office": true,
     "category": "Arroz",
+    "weight": 1,
     "ingredients": ["Arroz", "Pollo", "Cebolla", "Pimiento", "Pimentón", "Longaniza", "Vino blanco", "Tomate"],
+    "healty": true,
     "portions": 5
   },
   {
@@ -22,8 +26,10 @@
     "name": "Chocolate con churros",
     "time": ["Breakfast", "Dinner"],
     "office": false,
-    "category": "Premio",
+    "category": "Otros",
+    "weight": 1,
     "ingredients": ["Harina", "Azúcar", "Chocolate a la taza"],
+    "healty": false,
     "portions": 2
   },
   {
@@ -32,7 +38,9 @@
     "time": ["Lunch"],
     "office": true,
     "category": "Pasta",
+    "weight": 1,
     "ingredients": ["Pasta", "Tomate frito", "Atún"],
+    "healty": true,
     "portions": 2
   },
   {
@@ -40,8 +48,10 @@
     "name": "Frixuelos",
     "time": ["Breakfast", "Dinner"],
     "office": false,
-    "category": "Premio",
+    "category": "Otros",
+    "weight": 1,
     "ingredients": ["Leche entera", "Harina", "Huevos", "Anís"],
+    "healty": false,
     "portions": 4
   },
   {
@@ -50,7 +60,9 @@
     "time": ["Lunch"],
     "office": true,
     "category": "Arroz",
+    "weight": 1,
     "ingredients": ["Cebolla", "Caldo de pollo", "Vino blanco", "Mantequilla", "Parmesano"],
+    "healty": false,
     "portions": 6
   },
   {
@@ -59,7 +71,9 @@
     "time": ["Lunch"],
     "office": true,
     "category": "Legumbres",
+    "weight": 1,
     "ingredients": ["Fréjoles", Zanahoria", Chorizo", "Patata", "Jamón", "Pimentón"],
+    "healty": true,
     "portions": 4
   },
   {
@@ -68,7 +82,9 @@
     "time": ["Lunch", "Dinner"],
     "office": false,
     "category": "Pescado",
-    "ingredients": ["Lomos de salmón", "Cebolla", "Vino blanco", "Mantequilla", "Parmesano"],
+    "weight": 1,
+    "ingredients": ["Lomos de salmón", "Cebolla", "Vino blanco", "Ajo", "Patata"],
+    "healty": true,
     "portions": 2
   },
   {
@@ -77,7 +93,9 @@
     "time": ["Lunch"],
     "office": true,
     "category": "Legumbres",
+    "weight": 1,
     "ingredients": ["Garbanzos", "Cebolla", "Pepinillos", "Pimiento del piquillo", "Huevo"],
+    "healty": true,
     "portions": 2
   },
   {
@@ -86,7 +104,9 @@
     "time": ["Lunch"],
     "office": false,
     "category": "Carne",
+    "weight": 1,
     "ingredients": ["Pollo", "Ajo", "Pimentón", "Patata", "Limon", "Vino blanco", "Chumichurri"],
+    "healty": true,
     "portions": 3
   },
   {
@@ -95,7 +115,9 @@
     "time": ["Lunch", "Dinner"],
     "office": false,
     "category": "Carne",
+    "weight": 1,
     "ingredients": ["Pollo", "Limón", "Ajo"],
+    "healty": true,
     "portions": 3
   },
   {
@@ -104,7 +126,9 @@
     "time": ["Lunch", "Dinner"],
     "office": true,
     "category": "Carne",
+    "weight": 1,
     "ingredients": ["Carne picada", "Huevos", "Pan de molde", "Leche", "Ajo", "Cebolla", "Harina", "Salsa de tomate"],
+    "healty": true,
     "portions": 6
   },
   {
@@ -113,7 +137,9 @@
     "time": ["Lunch"],
     "office": true,
     "category": "Pasta",
+    "weight": 1,
     "ingredients": ["Carne picada", "Queso rallado", "Leche", "Mantequilla", "Harina", "Láminas de lasaña", "Salsa de tomate"],
+    "healty": true,
     "portions": 6
   },
   {
@@ -122,7 +148,9 @@
     "time": ["Lunch"],
     "office": true,
     "category": "Legumbres",
+    "weight": 1,
     "ingredients": ["Fabes", "Patata", "Zanahoria", "Cebolla", "Pimiento", "Chorizo", "Jamón"],
+    "healty": true,
     "portions": 5
   },
   {
@@ -131,7 +159,9 @@
     "time": ["Lunch"],
     "office": true,
     "category": "Carne",
+    "weight": 1,
     "ingredients": ["Tacos de ternera", "Patata", "Zanahoria", "Cebolla", "Pimiento", "Guisantes", "Vino tinto"],
+    "healty": true,
     "portions": 5
   },
   {
@@ -139,8 +169,10 @@
     "name": "Tortilla de patata",
     "time": ["Dinner"],
     "office": false,
-    "category": "Variado:1",
+    "category": "Otros",
+    "weight": 1,
     "ingredients": ["Patata", "Cebolla", "Huevo"],
+    "healty": true,
     "portions": 2
   },
   {
@@ -148,8 +180,10 @@
     "name": "Tortilla de patata rellena",
     "time": ["Dinner"],
     "office": false,
-    "category": "Variado:1",
+    "category": "Otros",
+    "weight": 1,
     "ingredients": ["Patata", "Cebolla", "Huevo", "Bacon", "Queso rallado"],
+    "healty" :false,
     "portions": 2
   },
   {
@@ -157,8 +191,318 @@
     "name": "Revuelto de puerros",
     "time": ["Dinner"],
     "office": false,
-    "category": "Variado:0.5",
+    "category": "Otros",
+    "weight": 0.5,
     "ingredients": ["Puerros", "Cebolla", "Huevo", "Bacon", "Queso rallado"],
+    "healty": true,
     "portions": 2
   },
+  {
+    "id": 19,
+    "name": "Ensaladilla rusa",
+    "time": ["Lunch", "Dinner"],
+    "office": true,
+    "category": "Verdura",
+    "weight": 1,
+    "ingredients": ["Patata", "Guisantes", "Zanahoria", "Aceitunas", "Atún", "Mayonesa", "Pimiento piquillo"],
+    "healty": true,
+    "portions": 4
+  },
+  {
+    "id": 20,
+    "name": "Ensalada campera",
+    "time": ["Lunch", "Dinner"],
+    "office": true,
+    "category": "Verdura",
+    "weight": 1,
+    "ingredients": ["Patata", "Atún", "Tomate", "Pimiento de piquillo"],
+    "healty": true,
+    "portions": 4
+  },
+    {
+      "id": 21,
+      "name": "Patatas a lo pobre",
+      "time": ["Lunch", "Dinner"],
+      "office": true,
+      "category": "Verdura",
+      "weight": 0.5,
+      "ingredients": ["Patata", "Cebolla", "Pimiento", "Ajo", "Pimentón"],
+      "healty": true,
+      "portions": 4
+    },
+    {
+      "id": 20,
+      "name": "Ensalada",
+      "time": ["Dinner"],
+      "office": false,
+      "category": "Verdura",
+      "weight": 1,
+      "ingredients": ["Lechuga", "Atún", "Pimiento de piquillo", "Otros"],
+      "healty": true,
+      "portions": 2
+    },
+    {
+      "id": 21,
+      "name": "Tostas con gula",
+      "time": ["Dinner"],
+      "office": false,
+      "category": "Otros",
+      "weight": 0.5,
+      "ingredients": ["Gula", "Ajo", "Tostas"],
+      "healty": true,
+      "portions": 2
+    },
+    {
+      "id": 22,
+      "name": "Ensalada de bacon y queso",
+      "time": ["Dinner"],
+      "office": false,
+      "category": "Verdura",
+      "weight": 1,
+      "ingredients": ["Lechuga", "Bacon", "Queso", "Churruscos", "Maíz"],
+      "healty": false,
+      "portions": 2
+    },
+    {
+      "id": 23,
+      "name": "Empanada de atún",
+      "time": ["Dinner"],
+      "office": false,
+      "category": "Otros",
+      "weight": 1,
+      "ingredients": ["Masa quebrada", "Atún", "Salsa de tomate"],
+      "healty": true,
+      "portions": 2
+    },
+    {
+      "id": 24,
+      "name": "Empanada de sardinillas",
+      "time": ["Dinner"],
+      "office": false,
+      "category": "Otros",
+      "weight": 1,
+      "ingredients": ["Masa quebrada", "Sardinillas picantes", "Salsa de tomate"],
+      "healty": true,
+      "portions": 2
+    },
+    {
+      "id": 25,
+      "name": "Mejillones en escabeche",
+      "time": ["Dinner"],
+      "office": false,
+      "category": "Pescado",
+      "weight": 0.25,
+      "ingredients": ["Mejillones en escabeche"],
+      "healty": true,
+      "portions": 2
+    },
+    {
+      "id": 26,
+      "name": "Alitas al horno",
+      "time": ["Lunch", "Dinner"],
+      "office": false,
+      "category": "Carne",
+      "weight": 1,
+      "ingredients": ["Alitas de pollo", "Chumichurri", "Pimentón", "Patata"],
+      "healty": false,
+      "portions": 2
+    },
+    {
+      "id": 27,
+      "name": "Costillas al horno",
+      "time": ["Lunch"],
+      "office": false,
+      "category": "Carne",
+      "weight": 1,
+      "ingredients": ["Costillar de cerdo", "Chumichurri", "Pimentón", "Patata"],
+      "healty": false,
+      "portions": 2
+    },
+    {
+      "id": 28,
+      "name": "Tortos con picadillo y huevo",
+      "time": ["Lunch", "Dinner"],
+      "office": false,
+      "category": "Carne",
+      "weight": 1,
+      "ingredients": ["Harina", "Harina de maíz", "Picadillo", "Huevo"],
+      "healty": false,
+      "portions": 2
+    },
+    {
+      "id": 29,
+      "name": "Sandwich",
+      "time": ["Dinner"],
+      "office": false,
+      "category": "Otros",
+      "weight": 1,
+      "ingredients": ["Pan de molde", "Queso en lonchas", "Jamón cocido"],
+      "healty": true,
+      "portions": 2
+    },
+    {
+      "id": 30,
+      "name": "Pizza",
+      "time": ["Dinner"],
+      "office": false,
+      "category": "Otros",
+      "weight": 1,
+      "ingredients": ["Pizza"],
+      "healty": false,
+      "portions": 2
+    },
+    {
+      "id": 31,
+      "name": "Pizza casera",
+      "time": ["Dinner"],
+      "office": false,
+      "category": "Otros",
+      "weight": 1,
+      "ingredients": ["Harina", "Levadura", "Salsa de tomate", "Queso", "Otros"],
+      "healty": true,
+      "portions": 2
+    },
+    {
+      "id": 32,
+      "name": "Hamburguesa",
+      "time": ["Dinner"],
+      "office": false,
+      "category": "Carne",
+      "weight": 1,
+      "ingredients": ["Pan hamburguesa", "Carne hamburguesa", "Queso en lonchas", "Bacon"],
+      "healty": false,
+      "portions": 2
+    },
+    {
+      "id": 33,
+      "name": "Arroz blanco",
+      "time": ["Lunch"],
+      "office": false,
+      "category": "Arroz",
+      "weight": 1,
+      "ingredients": ["Arroz", "Huevo", "Salchichas", "Tomate frito"],
+      "healty": true,
+      "portions": 2
+    },
+    {
+      "id": 34,
+      "name": "Tortitas",
+      "time": ["Breakfast", "Dinner"],
+      "office": false,
+      "category": "Otros",
+      "weight": 1,
+      "ingredients": ["Harina", "Levadura", "Leche" ,"Nocilla"],
+      "healty": false,
+      "portions": 4
+    },
+    {
+      "id": 35,
+      "name": "Garbanzos con bacalao y espinacas",
+      "time": ["Lunch"],
+      "office": true,
+      "category": "Pescado",
+      "weight": 1,
+      "ingredients": ["Garbanzos", "Bacalao", "Espinacas" ,"Huevo", "Harina", "Zanahoria", "Salsa de tomate", "Patata", "Cebolla", "Pimiento"],
+      "healty": true,
+      "portions": 4
+    },
+    {
+      "id": 36,
+      "name": "Puré de calabaza",
+      "time": ["Lunch", "Dinner"],
+      "office": false,
+      "category": "Verdura",
+      "weight": 0.5,
+      "ingredients": ["Patata", "Calabaza", "Cebolla" ,"Pimiento"],
+      "healty": true,
+      "portions": 4
+    },
+    {
+      "id": 37,
+      "name": "Puré de calabacín",
+      "time": ["Lunch", "Dinner"],
+      "office": false,
+      "category": "Verdura",
+      "weight": 0.5,
+      "ingredients": ["Patata", "Calabacín", "Zanahoria", "Cebolla" ,"Pimiento"],
+      "healty": true,
+      "portions": 4
+    },
+    {
+      "id": 38,
+      "name": "Atún al ajillo con patata cocida",
+      "time": ["Lunch", "Dinner"],
+      "office": false,
+      "category": "Pescado",
+      "weight": 1,
+      "ingredients": ["Atún", "Ajo", "Patata", "Limón"],
+      "healty": true,
+      "portions": 2
+    },
+    {
+      "id": 39,
+      "name": "Bacalao en salsa de tomate",
+      "time": ["Lunch", "Dinner"],
+      "office": true,
+      "category": "Pescado",
+      "weight": 1,
+      "ingredients": ["Bacalao", "Salsa de tomate", "Guisantes"],
+      "healty": true,
+      "portions": 4
+    },
+    {
+      "id": 40,
+      "name": "Salmón a la plancha con patata cocida",
+      "time": ["Lunch", "Dinner"],
+      "office": false,
+      "category": "Pescado",
+      "weight": 1,
+      "ingredients": ["Salmón", "Patata"],
+      "healty": true,
+      "portions": 4
+    },
+    {
+      "id": 41,
+      "name": "Pechuga de pollo",
+      "time": ["Lunch", "Dinner"],
+      "office": true,
+      "category": "Carne",
+      "weight": 0.5,
+      "ingredients": ["Pollo"],
+      "healty": true,
+      "portions": 4
+    },
+    {
+      "id": 42,
+      "name": "Solomillo a la plancha",
+      "time": ["Lunch", "Dinner"],
+      "office": true,
+      "category": "Carne",
+      "weight": 0.5,
+      "ingredients": ["Solomillo de cerdo"],
+      "healty": true,
+      "portions": 4
+    },
+    {
+      "id": 43,
+      "name": "Sopa con fideos",
+      "time": ["Dinner"],
+      "office": false,
+      "category": "Otros",
+      "weight": 0.5,
+      "ingredients": ["Caldo de pollo", "Fideos", "Zanahoria", "Huevo"],
+      "healty": true,
+      "portions": 2
+    },
+    {
+      "id": 44,
+      "name": "Espaguetis con picadillo",
+      "time": ["Lunch"],
+      "office": true,
+      "category": "Pasta",
+      "weight": 1,
+      "ingredients": ["Espaguetis", "Picadillo", "Tomate frito"],
+      "healty": false,
+      "portions": 2
+    },
 ]
