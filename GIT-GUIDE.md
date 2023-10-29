@@ -47,3 +47,12 @@
 !git stash list -> list stack-order of stashed file changes
 !git stash pop -> write working from top of stash stack
 !git stash drop -> discard the changes from top of stash stack
+
+
+
+!git status
+!git add 
+!git commit
+!git push
+
+!git pull

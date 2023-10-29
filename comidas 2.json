@@ -86,7 +86,7 @@
     "time": ["Lunch"],
     "office": false,
     "category": "Carne",
-    "ingredients": ["Pollo", "Ajo", "Pimentón", "Patata", "Limon", "Vino blanco", "Chumichurri"],
+    "ingredients": ["Pollo", "Ajo", "Pimentón", "Patatas", "Limon", "Vino blanco", "Chumichurri"],
     "portions": 3
   },
   {
@@ -95,70 +95,7 @@
     "time": ["Lunch", "Dinner"],
     "office": false,
     "category": "Carne",
-    "ingredients": ["Pollo", "Limón", "Ajo"],
-    "portions": 3
-  },
-  {
-    "id": 12,
-    "name": "Albóndigas",
-    "time": ["Lunch", "Dinner"],
-    "office": true,
-    "category": "Carne",
-    "ingredients": ["Carne picada", "Huevos", "Pan de molde", "Leche", "Ajo", "Cebolla", "Harina", "Salsa de tomate"],
-    "portions": 6
-  },
-  {
-    "id": 13,
-    "name": "Lasaña",
-    "time": ["Lunch"],
-    "office": true,
-    "category": "Pasta",
-    "ingredients": ["Carne picada", "Queso rallado", "Leche", "Mantequilla", "Harina", "Láminas de lasaña", "Salsa de tomate"],
-    "portions": 6
-  },
-  {
-    "id": 14,
-    "name": "Fabes pintas",
-    "time": ["Lunch"],
-    "office": true,
-    "category": "Legumbres",
-    "ingredients": ["Fabes", "Patata", "Zanahoria", "Cebolla", "Pimiento", "Chorizo", "Jamón"],
-    "portions": 5
-  },
-  {
-    "id": 15,
-    "name": "Menestra",
-    "time": ["Lunch"],
-    "office": true,
-    "category": "Carne",
-    "ingredients": ["Tacos de ternera", "Patata", "Zanahoria", "Cebolla", "Pimiento", "Guisantes", "Vino tinto"],
-    "portions": 5
-  },
-  {
-    "id": 16,
-    "name": "Tortilla de patata",
-    "time": ["Dinner"],
-    "office": false,
-    "category": "Variado:1",
-    "ingredients": ["Patata", "Cebolla", "Huevo"],
-    "portions": 2
-  },
-  {
-    "id": 17,
-    "name": "Tortilla de patata rellena",
-    "time": ["Dinner"],
-    "office": false,
-    "category": "Variado:1",
-    "ingredients": ["Patata", "Cebolla", "Huevo", "Bacon", "Queso rallado"],
-    "portions": 2
-  },
-  {
-    "id": 18,
-    "name": "Revuelto de puerros",
-    "time": ["Dinner"],
-    "office": false,
-    "category": "Variado:0.5",
-    "ingredients": ["Puerros", "Cebolla", "Huevo", "Bacon", "Queso rallado"],
+    "ingredients": ["Pollo", "Cebolla", "Pepinillos", "Pimiento del piquillo", "Huevo"],
     "portions": 2
   },
 ]

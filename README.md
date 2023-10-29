@@ -8,7 +8,7 @@ Formato JSON:
 #lunchOnly: if only to be eaten as lunch (bool)
 #dinnerOnly: if only to be eaten as dinner (bool)
 #office: if it can be taken to office
-#category: kind of dish (str) -> legumbres, carne, pescado, pasta, arroz
+#category: kind of dish (str) -> legumbres, carne, pescado, pasta, arroz, premio, picoteo
 #ingredients: what is the dish made with (list[str])
 #portions: number of portions when cooking (int)
 
