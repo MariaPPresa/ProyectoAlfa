@@ -52,7 +52,7 @@
 
 !git status
 !git add 
-!git commit
+!git commit -m "#my_msg"
 !git push
 
 !git pull
