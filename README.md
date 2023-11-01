@@ -13,3 +13,17 @@ Formato JSON:
 #ingredients: what is the dish made with (list[str])
 #healty: if healty or treat (bool)
 #portions: number of portions when cooking (int)
+
+
+
+
+
+Normas menu:
+
+-> Requisitos que hay que cumplir:
+#Pescado: 1/semana
+#Carne: 2/semana
+#Pasta: 1/semana
+#Arroz: 1/semana
+#Legumbres: 2/semana
+#Verdura: 3/semana
