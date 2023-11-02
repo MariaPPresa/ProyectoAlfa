@@ -72,7 +72,7 @@
     "office": true,
     "category": "Legumbres",
     "weight": 1,
-    "ingredients": ["Fréjoles", Zanahoria", Chorizo", "Patata", "Jamón", "Pimentón"],
+    "ingredients": ["Fréjoles", "Zanahoria", "Chorizo", "Patata", "Jamón", "Pimentón"],
     "healty": true,
     "portions": 4
   },
@@ -231,7 +231,7 @@
       "portions": 4
     },
     {
-      "id": 20,
+      "id": 22,
       "name": "Ensalada",
       "time": ["Dinner"],
       "office": false,
@@ -242,7 +242,7 @@
       "portions": 2
     },
     {
-      "id": 21,
+      "id": 23,
       "name": "Tostas con gula",
       "time": ["Dinner"],
       "office": false,
@@ -253,7 +253,7 @@
       "portions": 2
     },
     {
-      "id": 22,
+      "id": 24,
       "name": "Ensalada de bacon y queso",
       "time": ["Dinner"],
       "office": false,
@@ -264,7 +264,7 @@
       "portions": 2
     },
     {
-      "id": 23,
+      "id": 25,
       "name": "Empanada de atún",
       "time": ["Dinner"],
       "office": false,
@@ -275,7 +275,7 @@
       "portions": 2
     },
     {
-      "id": 24,
+      "id": 26,
       "name": "Empanada de sardinillas",
       "time": ["Dinner"],
       "office": false,
@@ -286,7 +286,7 @@
       "portions": 2
     },
     {
-      "id": 25,
+      "id": 27,
       "name": "Mejillones en escabeche",
       "time": ["Dinner"],
       "office": false,
@@ -297,7 +297,7 @@
       "portions": 2
     },
     {
-      "id": 26,
+      "id": 28,
       "name": "Alitas al horno",
       "time": ["Lunch", "Dinner"],
       "office": false,
@@ -308,7 +308,7 @@
       "portions": 2
     },
     {
-      "id": 27,
+      "id": 29,
       "name": "Costillas al horno",
       "time": ["Lunch"],
       "office": false,
@@ -319,7 +319,7 @@
       "portions": 2
     },
     {
-      "id": 28,
+      "id": 30,
       "name": "Tortos con picadillo y huevo",
       "time": ["Lunch", "Dinner"],
       "office": false,
@@ -330,7 +330,7 @@
       "portions": 2
     },
     {
-      "id": 29,
+      "id": 31,
       "name": "Sandwich",
       "time": ["Dinner"],
       "office": false,
@@ -341,7 +341,7 @@
       "portions": 2
     },
     {
-      "id": 30,
+      "id": 32,
       "name": "Pizza",
       "time": ["Dinner"],
       "office": false,
@@ -352,7 +352,7 @@
       "portions": 2
     },
     {
-      "id": 31,
+      "id": 33,
       "name": "Pizza casera",
       "time": ["Dinner"],
       "office": false,
@@ -363,7 +363,7 @@
       "portions": 2
     },
     {
-      "id": 32,
+      "id": 34,
       "name": "Hamburguesa",
       "time": ["Dinner"],
       "office": false,
@@ -374,7 +374,7 @@
       "portions": 2
     },
     {
-      "id": 33,
+      "id": 35,
       "name": "Arroz blanco",
       "time": ["Lunch"],
       "office": false,
@@ -385,7 +385,7 @@
       "portions": 2
     },
     {
-      "id": 34,
+      "id": 36,
       "name": "Tortitas",
       "time": ["Breakfast", "Dinner"],
       "office": false,
@@ -396,7 +396,7 @@
       "portions": 4
     },
     {
-      "id": 35,
+      "id": 37,
       "name": "Garbanzos con bacalao y espinacas",
       "time": ["Lunch"],
       "office": true,
@@ -407,7 +407,7 @@
       "portions": 4
     },
     {
-      "id": 36,
+      "id": 38,
       "name": "Puré de calabaza",
       "time": ["Lunch", "Dinner"],
       "office": false,
@@ -418,7 +418,7 @@
       "portions": 4
     },
     {
-      "id": 37,
+      "id": 39,
       "name": "Puré de calabacín",
       "time": ["Lunch", "Dinner"],
       "office": false,
@@ -429,7 +429,7 @@
       "portions": 4
     },
     {
-      "id": 38,
+      "id": 40,
       "name": "Atún al ajillo con patata cocida",
       "time": ["Lunch", "Dinner"],
       "office": false,
@@ -440,7 +440,7 @@
       "portions": 2
     },
     {
-      "id": 39,
+      "id": 41,
       "name": "Bacalao en salsa de tomate",
       "time": ["Lunch", "Dinner"],
       "office": true,
@@ -451,7 +451,7 @@
       "portions": 4
     },
     {
-      "id": 40,
+      "id": 42,
       "name": "Salmón a la plancha con patata cocida",
       "time": ["Lunch", "Dinner"],
       "office": false,
@@ -462,7 +462,7 @@
       "portions": 4
     },
     {
-      "id": 41,
+      "id": 43,
       "name": "Pechuga de pollo",
       "time": ["Lunch", "Dinner"],
       "office": true,
@@ -473,7 +473,7 @@
       "portions": 4
     },
     {
-      "id": 42,
+      "id": 44,
       "name": "Solomillo a la plancha",
       "time": ["Lunch", "Dinner"],
       "office": true,
@@ -484,7 +484,7 @@
       "portions": 4
     },
     {
-      "id": 43,
+      "id": 45,
       "name": "Sopa con fideos",
       "time": ["Dinner"],
       "office": false,
@@ -495,7 +495,7 @@
       "portions": 2
     },
     {
-      "id": 44,
+      "id": 46,
       "name": "Espaguetis con picadillo",
       "time": ["Lunch"],
       "office": true,
@@ -504,5 +504,5 @@
       "ingredients": ["Espaguetis", "Picadillo", "Tomate frito"],
       "healty": false,
       "portions": 2
-    },
+    }
 ]
