@@ -1,0 +1,36 @@
+Consejos para programar mejor:
+
+    - Tu código tiene 600 líneas y el mío 100 y hacen lo mismo... algo falla ahí
+Queremos hacerlo más simple, que cuando tenga 20k lienas asusta
+Para eso se hacen los bucles. Tenemos 7 días de la semana y para cada uno de ellos hacemos lo mismo, es decir,
+dibujamos el nombre del día y escribimos el desayuno, comida y cena. Una pista para saber cuándo poner un bucle,
+es fijarse en si repites el mismo comando más de 2 veces. Por ejemplo, en el retranslateUi, es lo mismo siempre con el setText.
+Haz una lista con el str de los días de la semana y otra con ["Desayuno","comida","cena"] y trabaja con ello.
+
+    - El código tiene que ser práctico y a prueba de balas
+Para aislar posibles fallos, se hacen las funciones. A las funciones dentro de las clases (nuestra clase es Ui_MainWindow),
+se les llama métodos, pero viene a ser lo mismo. Nosotros tendremos las funciones generateBreakfast(le pasamos el día),
+generateLunch, generateDinner, readData... Así aislamos esa parte del código. Realmente siempre queremos tener funciones,
+cuantas más, mejor.
+
+     - Los nombres de las funciones, métodos y variables en inglés. Todo en ingles. Así es como se debería programar en un
+entorno profesional y de cara a subirlo en linkdn o github o cualquier cosa, no queremos parecer unos aficionados... lo mínimo
+aparentar un poco. 
+    
+    - DÓNDE ESTÁN LOS COMENTARIOS???
+Quiero que expliques todo lo que haces. Al principio de cada función me cascas un comentario de lo que hace esa función.
+
+    - Última: nunca jamás pongas tilde en el nombre de un archivo. Menú de Raul.py es criminal -> MenuRaul.py o Menu_raul.py
+    
+    
+    
+Deberes:
+
+    - La pantalla se debe o poder ajustar o que se adapte automáticamente
+    - Pon varios bucles por ahí
+    - Cambia el nombre de las variables a inglés
+    - Usa funciones/métodos, aunque la función tenga 3 líneas. Si vas a usarla más de 1 vez, merece la pena
+
+Céntrate en esto por ahora. Cuando lo tengas me avisas y si tienes dudas, hablamos.
+Es mucha info y no pretendo que lo saques bien a la primera. Iremos puliendo el código poco a poco, pero buen trabajo por ahora.
+Me has impresionado :)
