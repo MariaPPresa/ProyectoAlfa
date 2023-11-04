@@ -1,7 +1,7 @@
 Consejos para programar mejor:
 
     - Tu código tiene 600 líneas y el mío 100 y hacen lo mismo... algo falla ahí
-Queremos hacerlo más simple, que cuando tenga 20k lienas asusta
+Queremos hacerlo más simple, que cuando tenga 20k lineas asusta
 Para eso se hacen los bucles. Tenemos 7 días de la semana y para cada uno de ellos hacemos lo mismo, es decir,
 dibujamos el nombre del día y escribimos el desayuno, comida y cena. Una pista para saber cuándo poner un bucle,
 es fijarse en si repites el mismo comando más de 2 veces. Por ejemplo, en el retranslateUi, es lo mismo siempre con el setText.
@@ -30,6 +30,11 @@ Deberes:
     - Pon varios bucles por ahí
     - Cambia el nombre de las variables a inglés
     - Usa funciones/métodos, aunque la función tenga 3 líneas. Si vas a usarla más de 1 vez, merece la pena
+    
+    
+Truco:
+    
+    - Puedes ocultar las funciones/métodos, así que es mucho más fácil centrarte en la parte que te interesa del código
 
 Céntrate en esto por ahora. Cuando lo tengas me avisas y si tienes dudas, hablamos.
 Es mucha info y no pretendo que lo saques bien a la primera. Iremos puliendo el código poco a poco, pero buen trabajo por ahora.
