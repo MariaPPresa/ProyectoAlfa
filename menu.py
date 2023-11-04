@@ -1,7 +1,7 @@
 import sys
 import random
 import json
-from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QLabel, QLineEdit, QPushButton, QVBoxLayout, QGridLayout, QFrame, QHBoxLayout
+from PyQt5.QtWidgets import *
     
 class WeeklyMenu(QWidget):
     def __init__(self):
@@ -9,40 +9,67 @@ class WeeklyMenu(QWidget):
         self.initUI()
         
     def read_data(self):
-        with open("comidas.json", "r") as f:
-            data = f.read()
-
-        dishes = json.loads(data)
-
-        return dishes 
-        
-    def generate_dinners(self):
         """
-            Genera las 7 cenas aleatorias de la semana.
+        Reads comidas.json and returns a tuple:
+            [0] list of all breakfasts
+            [1] list of all lunches
+            [2] list of all dinners
+
+        """
+        with open("comidas.json", "r") as file:
+            data = json.load(file)
         
-            Returns:
-                Una lista de 7 cenas
-                """
+        all_breakfasts = [meal for meal in data if "Breakfast" in meal["time"]]
+        all_lunches = [meal for meal in data if "Lunch" in meal["time"]]
+        all_dinners =[meal for meal in data if "Dinner" in meal["time"]]
+        return all_breakfasts,  all_lunches, all_dinners
+        
+    def generate_breakfast(self):
+        """
+            Generate the 7 breakfast meals of the week
+        
+            Returns a list of 7 dishes:breakfast
+        """
+        
+        all_breakfasts = self.read_data()[0]      
 
-        # Leer los datos del JSON
-        dishes = self.read_data()
-
-        # Obtener una lista de las cenas
-        #dinners = [dish["name"] for dish in dishes if int(dish["time"].count("Cena")) > 0]
-        dinners = [dish for dish in dishes]
-        few_dinners = []
+        meal_names = [meal["name"] for meal in all_breakfasts]
+        breakfast_list = random.sample(meal_names, 3)
+        return breakfast_list
     
-        # Usar una comprensión de lista para obtener solo los nombres
-        nombres_platos = [plato["name"] for plato in dishes]
+    def generate_lunch(self):
+        """
+            Generate the 7 lunch meals of the week
+        
+            Returns a list of 7 dishes:lunch
+        """
 
-        # Elegir 7 cenas aleatorias
-        dinners_list = random.sample(nombres_platos, 7)
-        return dinners_list
+        all_lunches = self.read_data()[1]             
+
+        meal_names = [meal["name"] for meal in all_lunches]
+        lunch_list = random.sample(meal_names, 7)
+        return lunch_list
+    
+    def generate_dinner(self, breakfast_list, lunch_list):
+        """
+            Generate the 7 dinner meals of the week. Takes into consideration lunches and breaksfasts.
+        
+            Returns a list of 7 dishes:dinner
+        """
+
+        all_dinners = self.read_data()[2]   
+
+        meal_names = [meal["name"] for meal in all_dinners]
+        dinner_list = random.sample(meal_names, 7)
+        return dinner_list
         
     def initUI(self):
+        
+        #Creates new window
         self.setWindowTitle("Menú Semanal")
         self.setGeometry(100, 100, 600, 400)
 
+        #Create grid
         layout = QGridLayout()
         self.setLayout(layout)
         
@@ -51,55 +78,43 @@ class WeeklyMenu(QWidget):
         self.breakfast_entries = []
         self.lunch_entries = []
         self.dinner_entries = []
-        
-        dinnerList = self.generate_dinners()
+
+        breakfastList = self.generate_breakfast()
+        lunchList = self.generate_lunch()
+        dinnerList = self.generate_dinner(breakfastList,lunchList)
         
         for day in self.week_days:
             day_frame = QFrame(self)
             day_frame.setStyleSheet("background-color: #3498db; border-radius: 5px;")  # Cambia el color de fondo y el borde
             h_layout = QHBoxLayout(day_frame)
-    
+            
             day_button = QPushButton(day, day_frame)
             day_button.clicked.connect(lambda checked, day=day: self.regenerate_menu(day))
             h_layout.addWidget(day_button)
     
             layout.addWidget(day_frame, 0, self.week_days.index(day))
             
-            breakfast_label = QLabel("breakfast")
-            layout.addWidget(breakfast_label, 1, self.week_days.index(day))
             breakfast_entry = QLineEdit()
             breakfast_entry.setReadOnly(True)
             breakfast_entry.setText(str(random.randint(1, 1000)))
             layout.addWidget(breakfast_entry, 2, self.week_days.index(day))
             self.breakfast_entries.append(breakfast_entry)
             
-            lunch_label = QLabel("luncha")
-            layout.addWidget(lunch_label, 3, self.week_days.index(day))
             lunch_entry = QLineEdit()
             lunch_entry.setReadOnly(True)
-            lunch_entry.setText(str(random.randint(1, 1000))
-            )
+            lunch_entry.setText(lunchList[self.week_days.index(day)])
             layout.addWidget(lunch_entry, 4, self.week_days.index(day))
             self.lunch_entries.append(lunch_entry)
             
-            dinner_label = QLabel("dinner")
-            layout.addWidget(dinner_label, 5, self.week_days.index(day))
             dinner_entry = QLineEdit()
             dinner_entry.setReadOnly(True)
             dinner_entry.setText(dinnerList[self.week_days.index(day)])
             layout.addWidget(dinner_entry, 6, self.week_days.index(day))
             self.dinner_entries.append(dinner_entry)
-
-
-
-    def regenerte_menu(self, day):
-        day_index = self.week_days.index(day)
-        breakfast = random.randint(1, 1000)
-        lunch = random.randint(1, 1000)
-        dinner = random.randint(1, 1000)
-        self.breakfast_entries[day_index].setText(str(breakfast))
-        self.lunch_entries[day_index].setText(str(lunch))
-        self.dinner_entries[day_index].setText(str(dinner))
+            
+        # Add a spacer to the layout to ensure that it is evenly spaced
+        spacer = QSpacerItem(0, 0, QSizePolicy.Minimum, QSizePolicy.Expanding)
+        layout.addItem(spacer, 7, 0)
 
 def main():
     """
