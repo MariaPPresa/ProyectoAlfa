@@ -79,7 +79,7 @@
   {
     "id": 8,
     "name": "Salmón al horno",
-    "time": ["Lunch", "Dinner"],
+    "time": ["Lunch"],
     "office": false,
     "category": "Pescado",
     "weight": 1,
